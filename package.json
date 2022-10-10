@@ -5,14 +5,23 @@
   "license": "ISC",
   "type": "module",
   "scripts": {
+    "dev": "vite",
     "test": "vitest",
     "coverage": "vitest run --coverage"
   },
   "devDependencies": {
+    "@testing-library/react": "^13.4.0",
+    "@vitejs/plugin-react": "^2.1.0",
+    "happy-dom": "^7.4.0",
     "standard": "^17.0.0",
     "vitest": "0.24.0"
   },
   "eslintConfig": {
     "extends": "./node_modules/standard/eslintrc.json"
+  },
+  "dependencies": {
+    "mathjs": "^11.2.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }
